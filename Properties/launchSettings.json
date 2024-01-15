@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "TestNSwagFunction": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7058"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 31396,
+      "useSSL": false
+    }
+  }
+}
